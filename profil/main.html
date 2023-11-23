@@ -1,0 +1,61 @@
+<!-- начало верстки -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illuminous</title>
+  <!-- подключение стилей -->
+<link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+    <div class="vid"><video autoplay loop muted class="bgvideo" id="bgvideo">
+        <source src="../asset/img/videobg.mp4" type="video/mp4"></source></video></div>
+     <div class="container">
+<div class="header">
+  <div class="logo"><a href="../main.html"><img src="../asset/img/logo.png" alt=""></a></div>
+  <div class="profil"><a href="">Профиль</a></div>
+  <!-- выпадающий список -->
+  <nav>
+    <ul class="topmenu">
+      <li><a href="" class="down">Каталог</a>
+        <ul class="submenu">
+          <li><a href="../movies/index.html">Фильмы</a></li>
+          <li><a href="../serials/main.html">Сериалы</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="box">
+    <form name="search">
+        <input type="text" class="input" name="txt" onmouseout="this.value = 'Поиск'; this.blur();">
+    </form>
+    <i class="fas fa-search"></i>
+</div>
+</div>
+<div class="ava"><img src="./asset/img/ava.png" alt=""></div>
+<div class="nik"><a>Райан Гослинг</a></div>
+<div class="prosmotr"><a href="">Недавно просмотренное</a></div>
+<div class="izbran"><a href="">Фильмы/сериалы в избранном</a></div>
+<div class="avtoriz"><a href="../avtoriz/main.html">Авторизоваться</a></div>
+
+<div class="podpiska"><a>Купить подписку</a></div>
+<div class="podp1"><a href="../podpiska/main.html"></a><img src="./asset/img/cena30.png" alt=""></div>
+<div class="podp2"><a href="../podpiska/main.html"><img src="./asset/img/cena90.png" alt=""></a></div>
+<div class="podp3"><a href="../podpiska/main.html"><img src="./asset/img/cena1.png" alt=""></a></div>
+<!-- футер -->
+<footer class="footer">
+  <div class="bgf"><img src="./asset/img/footer.png" alt=""></div>
+  <div class="txtf"><a>Присоединяйтесь к нам</a></div>
+  <div class="logof"><a href="../main.html"><img src="./asset/img/logo.png" alt=""></a></div>
+  <div class="soc1"><a href="https://web.telegram.org/k/"><img src="./asset/img/telega.png" alt=""></a></div>
+  <div class="soc2"><a href="https://vk.com/?ysclid=lp5hjuufa2595457377"><img src="./asset/img/vk.png" alt=""></a></div>
+  <div class="soc3"><a href=""><img src="./asset/img/insta.png" alt=""></a></div>
+  <div class="soc4"><a href="https://web.telegram.org/k/"><img src="./asset/img/whats.png" alt=""></a></div>
+</footer>
+</div>
+</body>
+</html>
+<!-- конец -->
